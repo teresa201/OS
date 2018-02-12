@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>
+#include <stdlib.h>
 /*
 @author Teresa Yienger
 The process id is the same within a run but different each time you run the program
