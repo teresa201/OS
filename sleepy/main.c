@@ -6,6 +6,10 @@
 @author Teresa Yienger
 The process id is the same within a run but different each time you run the program
 After the sleep function the process transitions to the ready state
+To run:
+Used genuse27
+gcc -o sleepy main.c
+./sleepy
 */
 int main(int argc, char *argv[])
 {
