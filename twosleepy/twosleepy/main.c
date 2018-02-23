@@ -12,7 +12,7 @@ for its termination satus to be accepted. Since its parent process terminated an
 accepts its childs termination codes, so that it can terminate.
 To run:
 Used genuse27
-gcc -o twosleepy main.c
+gcc -o twosleepy tsmain.c
 ./twosleepy
 */
 #include <stdio.h>
