@@ -5,7 +5,10 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <string.h>
-
+/*@author Teresa Yienger
+Used genuse27
+run: gcc -pthread shell.c
+*/
 extern char **environ;
 
 
