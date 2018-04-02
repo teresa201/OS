@@ -201,7 +201,7 @@ int fsort(char ** args){
     pthread_t t2;
     char* fName = args[1];
     pthread_create(&t2,NULL,rFile, fName);
-    pthread_join(t2,NULL);
+    //pthread_join(t2,NULL);
     return 1;
 }
 
